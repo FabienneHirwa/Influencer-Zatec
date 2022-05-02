@@ -11,9 +11,19 @@ function Follow() {
         }
     }
   return (
-    <div id="buttonFollow">
-        <button onClick={changeValue}> <i className='fas fa-user-plus'></i>{value}</button>
-    </div>
+    <>
+    
+      {
+        value === "Follow" ?
+        <div onClick={changeValue} id="buttonFollow">
+        <button > <i className='fas fa-user-plus' ></i>Follow</button>
+        </div>
+        :
+        <div onClick={changeValue} id="buttonFollowing">
+        <button > <i className='fas fa-user-plus'></i>Following</button>
+        </div>
+      }
+          </>
   );
 }
     
