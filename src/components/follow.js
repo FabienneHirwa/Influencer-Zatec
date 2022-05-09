@@ -1,12 +1,17 @@
 import React, { useState } from "react";
 
 
-function Follow() {
+function Follow(props) {
     const [value,setValue] = useState('Follow')
+    
     const  changeValue = () =>{
+        var count = document.getElementById('count_p')
         if(value === 'Follow'){
+          count.innerHTML = parseInt(count.innerHTML)+1
             setValue('Following')
         }else{
+          count.innerHTML = parseInt(count.innerHTML)-1
+          console.log(localStorage.getItem('count'))
             setValue('Follow')
         }
     }
