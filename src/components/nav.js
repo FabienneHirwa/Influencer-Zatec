@@ -7,7 +7,7 @@ import AddUser from "./addUser";
 function Nav() {
   return (
     <>
-      <div className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-[#0c4a6e] ">
+      <div className=" flex flex-wrap items-center justify-between px-2 py-3 bg-[#0c4a6e] ">
         <ul className="container px-4 mx-auto flex flex-wrap items-center justify-between text-white">
           <h1 className="text-2xl no-underline" href="">INFLUEN<strong className="text-[#fbbf24]">CERS!</strong></h1>
           <div className ="relative flex flex-wrap px-2">
