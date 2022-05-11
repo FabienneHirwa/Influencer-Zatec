@@ -57,16 +57,16 @@ class UseApi extends Component{
             
             return (
                 
-              <div className="row " id="user_card" >
-              <div className="col-2" >
+              <div className="row" id="user_card" >
+              <div>
                 <img  src={value.profilePicture} alt="image"/>
               </div>
               
-              <div className="col">
+              <div>
               <h2>@{value.username}</h2>
               <p id="biography">{value.biography}</p>
               </div>
-              <div className="col-3">
+              <div>
               <Follow  count={this}/>
               </div>
             </div>

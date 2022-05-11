@@ -11,7 +11,7 @@ function Nav() {
         <ul className="container px-4 mx-auto flex flex-wrap items-center justify-between text-white">
           <h1 className="text-2xl no-underline" href="">INFLUEN<strong className="text-[#fbbf24]">CERS!</strong></h1>
           <div className ="relative flex flex-wrap px-2">
-          <h5>Users: </h5> 
+          <h5>Following: </h5> 
           <h5 id="count_p" className="text-[#fbbf24]">0</h5>
           
           </div>

@@ -1,17 +1,18 @@
+
 #container{
     margin: 20px auto;
-    width: 470px;
+    width: 60%;
     height: 500px;
-    
-    
 }
 #user_card{
+    display: grid;
+    grid-template-columns: 1fr 5fr 2fr;
     padding-top: 15px; 
     padding-left: 25px;
     padding-bottom: 15px;
     height: 90px;
     border: 1px solid #F5F5F5;
-    width: 550px;
+    width: 100%;
     
 }
 #user_card h2{
